@@ -21,20 +21,19 @@ public class HandlingException {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
-			while(s !=null) {
+			while (s != null) {
 				System.out.println(s);
 				try {
-					s=br.readLine();
+					s = br.readLine();
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			}
-		}
-		catch(FileNotFoundException e) {
+		} catch (FileNotFoundException e) {
 			System.out.println("File does not exist");
 		}
-		
+
 	}
 
 }
