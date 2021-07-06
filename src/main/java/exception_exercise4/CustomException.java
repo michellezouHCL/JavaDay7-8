@@ -1,4 +1,4 @@
-package exercise4;
+package exception_exercise4;
 
 @SuppressWarnings("serial")
 public class CustomException extends Exception{
